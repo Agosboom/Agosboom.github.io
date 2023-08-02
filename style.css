@@ -1,0 +1,119 @@
+body,html {
+    background: #DAE2F8;
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+    height: 100% !important;
+}
+/* Estilos del navbar */
+.nav {
+    display: flex;
+    justify-content: end;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+    color: black;
+}
+
+.nav-link {
+    padding: 5px 10px;
+   color: black !important;
+}
+
+.nav-link.active {
+    color: black;
+}
+
+/* Estilos de las secciones */
+.section {
+    padding: 50px 0;
+    text-align: center;
+    color: black;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.container {
+    padding-top: 0px !important; 
+    height: 45vh !important; 
+    display: flex !important; 
+    justify-content: center !important; 
+    align-items: center !important; 
+    text-align: center !important;
+}
+
+body, .welcome-text {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-text {
+    height: 60vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 60px;
+    margin: 0px;
+    padding: 2px;
+}
+
+h1 {
+    font-size: 80px !important;  
+    margin-bottom: 3px; 
+    margin-top: 1px;
+    margin: 1px;
+    padding: 3px;
+}
+.texto-contactame{
+    height: 40vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 50px;
+    margin: 1px;
+    padding: 1px;
+}
+/* Agrega estilos CSS para centrar el texto en la card-body */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Estilos adicionales para las redes sociales */
+.redes {
+    list-style: none;
+    padding: 0;
+}
+
+.redes a {
+    margin: 5px;
+}
+
+
+.container-texto{
+ justify-content: center !important;
+ height: 200px !important;
+ align-items: center !important;
+ text-align: center !important;
+ padding: 80px !important;
+ margin: 80px !important;
+
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
